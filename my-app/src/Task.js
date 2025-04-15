@@ -1,7 +1,9 @@
+import Checkbox from "./Checkbox";
+
 export default function Task() {
     return (
-        <div>
-        <input type="checkbox"/>
+        <div className="task">
+            <Checkbox />
         test task
       </div>
     );
