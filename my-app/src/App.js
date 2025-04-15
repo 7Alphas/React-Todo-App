@@ -4,10 +4,14 @@ import TaskForm from './TaskForm';
 
 function App() {
   return (
-   <div>
+   <main>
     <TaskForm />
     <Task />
-   </div>
+    <Task />
+    <Task />
+    <Task />
+    <Task />
+   </main>
   );
 }
 
